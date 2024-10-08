@@ -118,14 +118,7 @@ nav ul li a {
         </div>
 		 </div>
 
-         <!--
-        <div class="section">
-            <h2>Publicaciones Seleccionadas</h2>
-            <p>Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?</p>
-            <p>A. Einstein, B. Podolsky, y N. Rosen</p>
-            <p>Phys. Rev., New Jersey. Mayo 1935</p>
-        </div>
-        -->
+
     </div>
 
     <footer>
