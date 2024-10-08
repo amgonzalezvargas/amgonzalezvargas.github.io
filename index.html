@@ -50,21 +50,64 @@
                 padding: 0 10px;
             }
         }
+		nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.bio-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.bio-photo {
+    width: 200px;
+    height: 200px;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+}
     </style>
 </head>
 <body>
+	<nav>
+    <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#biografia">Biografía</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#publicaciones">Publicaciones</a></li>
+    </ul>
+	</nav>
     <div class="container">
                <header>
             <h1>Tu Nombre</h1>
             <p>Afiliaciones. Dirección. Contactos. Lema. Etc.</p>
         </header>
 
-        <div class="section">
+        <div class="section" id="biografia">
             <h2>Biografía</h2>
+			<div class="bio-container">
+			<div class="bio-photo">[Foto]</div>
             <p>
                 I'm an engineering professor, working at the intersection between data science, artificial intelligence, biomedical engineering, and education. I hold a PhD in Electronics, Computer Science and Electrical Engineering a Master's degree in Biomedical Engineering and a Bachelor's degree in Mechatronics Engineering. I have designed and taught courses in machine learning, biomedical instrumentation, computational biology, and health information systems for 18 years.  I've worked as researcher at various institutions, including Universidad Santiago de Cali, INRIA (France),  University of Pavia (Italy) and ETHZ (Switzerlan). I've supervised many theses and authored or co-authored over 40 peer-reviewed scientific publications. My current research interests focus on applications of data science and AI in applications in healthcare and education. In 2021 I was honored with the 'The Night of the Best 2021' Award in the category 'Professors driving the transformation of education mediated with digital technologies' by the Ministry of National Education in Colombia, and currently I'm an Associate Investigator in the Ministry of Science, Technology and Innovation's classification system.
             </p>
         </div>
+		 </div>
 
         <div class="section">
             <h2>Noticias</h2>
