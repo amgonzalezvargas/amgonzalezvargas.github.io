@@ -4,133 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrés MGV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #1a1a1a;
-            color: #e0e0e0;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        h1, h2 {
-            color: #ffffff;
-        }
-        h2 {
-            border-bottom: 1px solid #444;
-            padding-bottom: 10px;
-        }
-        a {
-            color: #4da6ff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #888;
-        }
-        
-        @media screen and (max-width: 768px) {
-            .container {
-                padding: 0 10px;
-            }
-        }
-		nav {
-    background-color: #333;
-    padding: 10px 0;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-.bio-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-}
-.bio-photo {
-    width: 100px;  /* Reduced from 200px */
-    height: 100px; /* Reduced from 200px */
-    overflow: hidden;
-    border-radius: 5px; /* it could be also a percentage, like 50% */
-    margin: 0 auto; /* Centers the image if it's not already centered */
-}
-
-.bio-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<nav>
-    <ul>
-        <li><a href="#home">about</a></li>
-        <li><a href="#bio">publications</a></li>
-        <li><a href="#noticias">projects</a></li>
-        <li><a href="#noticias">teaching</a></li>
-        <li><a href="#noticias">supervision</a></li>
-        <li><a href="#noticias">repositories</a></li>       
-        <li><a href="#publicaciones">blog</a></li>
-    </ul>
-	</nav>
     <div class="container">
-               <header>
+        <header>
             <h1>Andrés M. González Vargas</h1>
             <p>Full Professor at Universidad Autónoma de Occidente</p>
         </header>
 
         <div class="section" id="bio">
             <h2>About me</h2>
-			<div class="bio-container">
-			<p>
-                Currently, I'm mostly working in applications of data science and AI in health care and education. I have a diverse background, with degrees in computer science, biomedical engineering, mechatronics engineering, hospital technology management, and higher education. During my 20 years of professional experience, I have worked in academy for more than 15 years, designing and teaching courses in machine learning, biomedical instrumentation, computational biology, and health information systems for last 18 years. My research career has been carried out at various institutions, including Universidad Autónoma de Occidente, Universidad Santiago de Cali, Institut National de Recherche en Informatique et en Automatique (INRIA),  University of Pavia and ETH Zürich. I've supervised many theses and authored or co-authored over 40 peer-reviewed publications. In 2021 I was honored with the 'The Night of the Best 2021' Award in the category 'Professors driving the transformation of education mediated with digital technologies' by the Ministry of National Education in Colombia, and currently I'm an Associate Investigator in the Ministry of Science, Technology and Innovation's classification system. I'm always looking for new challenges and fantastic things to learn.
-            </p>
-            <div class="bio-photo">
-                <img src="profile_img_bw.png" alt="Bio Picture">
+            <div class="bio-container">
+                <p>
+                    Currently, I'm mostly working in applications of data science and AI in health care and education. I have a diverse background, with degrees in computer science, biomedical engineering, mechatronics engineering, hospital technology management, and higher education. During my 20 years of professional experience, I have worked in academy for more than 15 years, designing and teaching courses in machine learning, biomedical instrumentation, computational biology, and health information systems for last 18 years. My research career has been carried out at various institutions, including Universidad Autónoma de Occidente, Universidad Santiago de Cali, Institut National de Recherche en Informatique et en Automatique (INRIA),  University of Pavia and ETH Zürich. I've supervised many theses and authored or co-authored over 40 peer-reviewed publications. In 2021 I was honored with the 'The Night of the Best 2021' Award in the category 'Professors driving the transformation of education mediated with digital technologies' by the Ministry of National Education in Colombia, and currently I'm an Associate Investigator in the Ministry of Science, Technology and Innovation's classification system. I'm always looking for new challenges and fantastic things to learn.
+                </p>
+                <div class="bio-photo">
+                    <img src="profile_img_bw.png" alt="Bio Picture">
+                </div>
             </div>
         </div>
-		 </div>
-
-         <!--
-        <div class="section">
-            <h2>Publicaciones Seleccionadas</h2>
-            <p>Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?</p>
-            <p>A. Einstein, B. Podolsky, y N. Rosen</p>
-            <p>Phys. Rev., New Jersey. Mayo 1935</p>
-        </div>
-        -->
     </div>
 
-    <footer>
-        <p>© Copyright 2024 Andrés M. González Vargas</p>
-    </footer>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>
