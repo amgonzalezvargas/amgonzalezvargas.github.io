@@ -3,30 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrés MGV</title>
+    <meta name="description" content="Personal website of Andrés M. González Vargas - Professor, Data Scientist, and Biomedical Engineer">
+    <title>Andrés M. González Vargas | Professor & Data Scientist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Andrés M. González Vargas</h1>
-            <p>Full Professor at Universidad Autónoma de Occidente. Data Scientist. Biomedical Engineer.</p>
+    <div class="page-wrapper">
+        <header class="site-header">
+            <div class="container header-container">
+                <div class="logo">
+                    <a href="index.html">AMG</a>
+                </div>
+                <nav class="main-nav">
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="active">About</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="supervision.html">Supervision</a></li>
+                        <li><a href="repositories.html">Repositories</a></li>
+                        <li><a href="https://medium.com/@amgonzalezv">Blog</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <div class="section" id="bio">
-            <h2>About me</h2>
-            <div class="bio-container">
-                <p>
-                    Currently, I'm mostly working in applications of data science and AI in health care and education. I have a diverse background, with degrees in computer science, biomedical engineering, mechatronics engineering, hospital technology management, and higher education. I have worked in academy for more than 15 years, designing and teaching courses in machine learning, biomedical instrumentation, computational biology, and health information systems. My research career has been carried out at various institutions, including Universidad Autónoma de Occidente, Universidad Santiago de Cali, Institut National de Recherche en Informatique et en Automatique (INRIA), University of Pavia and ETH Zürich. I've supervised many theses and authored or co-authored over 30 peer-reviewed publications. In 2021 I was honored with the 'The Night of the Best 2021' Award in the category 'Professors driving the transformation of education mediated with digital technologies' by the Ministry of National Education in Colombia, and currently I'm an Associate Investigator in the Ministry of Science, Technology and Innovation's classification system. I'm always looking for new challenges and fantastic things to learn.
-                </p>
-				<!--
-                <div class="bio-photo">
-                    <img src="profile_img_bw.png" alt="Bio Picture">
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1>Andrés M. González Vargas</h1>
+                            <p class="subtitle">Full Professor at Universidad Autónoma de Occidente</p>
+                            <p class="tagline">Data Scientist • Biomedical Engineer • Educator</p>
+                        </div>
+                        <div class="hero-image">
+                            <img src="profile_img_bw.png" alt="Andrés M. González Vargas">
+                        </div>
+                    </div>
                 </div>
-				-->
-				
+            </section>
+
+            <section class="about">
+                <div class="container">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-content">
+                        <p>
+                            Currently, I'm mostly working in applications of data science and AI in health care and education. I have a diverse background, with degrees in computer science, biomedical engineering, mechatronics engineering, hospital technology management, and higher education.
+                        </p>
+                        <p>
+                            I have worked in academy for more than 15 years, designing and teaching courses in machine learning, biomedical instrumentation, computational biology, and health information systems. My research career has been carried out at various institutions, including Universidad Autónoma de Occidente, Universidad Santiago de Cali, Institut National de Recherche en Informatique et en Automatique (INRIA), University of Pavia and ETH Zürich.
+                        </p>
+                        <p>
+                            I've supervised many theses and authored or co-authored over 30 peer-reviewed publications. In 2021 I was honored with the 'The Night of the Best 2021' Award in the category 'Professors driving the transformation of education mediated with digital technologies' by the Ministry of National Education in Colombia, and currently I'm an Associate Investigator in the Ministry of Science, Technology and Innovation's classification system.
+                        </p>
+                        <p>
+                            I'm always looking for new challenges and fantastic things to learn.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="highlights">
+                <div class="container">
+                    <h2 class="section-title">Highlights</h2>
+                    <div class="card-grid">
+                        <div class="card">
+                            <i class="fas fa-brain"></i>
+                            <h3>Data Science & AI</h3>
+                            <p>Exploring applications in healthcare and education through machine learning models and analytical solutions.</p>
+                        </div>
+                        <div class="card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Teaching</h3>
+                            <p>Designing and teaching courses in biomedical engineering, data science, and computational biology.</p>
+                        </div>
+                        <div class="card">
+                            <i class="fas fa-microscope"></i>
+                            <h3>Research</h3>
+                            <p>Co-authored over 30 peer-reviewed publications across multiple fields and institutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://medium.com/@amgonzalezv" aria-label="Medium"><i class="fab fa-medium"></i></a>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>© Copyright 2024 Andrés M. González Vargas</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </footer>
     </div>
 
     <script src="script.js"></script>
